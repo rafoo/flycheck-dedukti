@@ -43,6 +43,16 @@
                 "ERROR file:" (file-name)
                 " line:" line
                 " column:" column
+                (message) line-end)
+               (warning
+                line-start
+                "WARNING line:" line
+                " column:" column
+                (message) line-end)
+               (error
+                line-start
+                "ERROR line:" line
+                " column:" column
                 (message) line-end))
               :modes dedukti-mode)
             (add-to-list 'flycheck-checkers 'dedukti)))
