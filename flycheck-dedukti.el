@@ -5,6 +5,7 @@
 ;; Author: Raphaël Cauderlier
 ;; Version: 0.1
 ;; License: CeCILL-B
+;; Package-Requires: ((flycheck "0.19") (dedukti-mode "0.1"))
 
 ;;; Commentary:
 ;; This file defines a flycheck checker based on Dedukti type checker dkcheck.
@@ -14,7 +15,6 @@
 ;; <https://www.rocq.inria.fr/deducteam/Dedukti/>
 ;; Flycheck is an on-the-fly syntax checker for GNU Emacs 24
 
-;; Package-Requires: ((flycheck "0.19") (dedukti-mode "0.1"))
 
 ;;; Code:
 
