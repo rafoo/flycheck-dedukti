@@ -53,4 +53,5 @@
 
 (add-to-list 'flycheck-checkers 'dedukti)
 
+(provide 'flycheck-dedukti)
 ;;; flycheck-dedukti.el ends here
