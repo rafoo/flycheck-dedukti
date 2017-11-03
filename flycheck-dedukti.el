@@ -6,6 +6,8 @@
 ;; Version: 0.1
 ;; License: CeCILL-B
 ;; Package-Requires: ((flycheck "0.19") (dedukti-mode "0.1"))
+;; Keywords: convenience languages tools flycheck dedukti
+;; URL: https://github.com/rafoo/flycheck-dedukti
 
 ;;; Commentary:
 ;; This file defines a flycheck checker based on Dedukti type checker dkcheck.
